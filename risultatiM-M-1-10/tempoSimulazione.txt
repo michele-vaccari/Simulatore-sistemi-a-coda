@@ -1,0 +1,6 @@
+10 000 000 9 minuti
+5 000 000 4 minuti e 3 secondi
+1 000 000 48.6 secondi
+100 000 4.93 secondi
+10 000 0.51 secondi
+1 000 0.06 secondi

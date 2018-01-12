@@ -1,0 +1,12 @@
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\bin\Debug\SimulatoreTLC.exe.config
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\bin\Debug\SimulatoreTLC.exe
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\bin\Debug\SimulatoreTLC.pdb
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.csprojResolveAssemblyReference.cache
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.Form1.resources
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.Properties.Resources.resources
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.csproj.GenerateResource.Cache
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.exe
+C:\Users\padov\Desktop\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.pdb
+C:\Users\padov\Desktop\unife\tlc\tesinaTLC\SimulatoreTLC\SimulatoreTLC\bin\Debug\SimulatoreTLC.exe.config
+C:\Users\padov\Desktop\unife\tlc\tesinaTLC\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.exe
+C:\Users\padov\Desktop\unife\tlc\tesinaTLC\SimulatoreTLC\SimulatoreTLC\obj\Debug\SimulatoreTLC.pdb

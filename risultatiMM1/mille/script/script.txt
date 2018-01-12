@@ -1,0 +1,96 @@
+set terminal jpeg
+set title "Tempo medio in coda"
+set output 'C:\Users\padov\Desktop\risultati\grafici\tempo_coda.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E[Tq]'
+set xrange[0:1]
+set yrange[0:100]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\teorici\\tempoCoda.txt' title "Teorico Tempo Coda" with lines lt 1 lc 1, 'C:\Users\padov\Desktop\risultati\simulati\\tempoCoda.txt' title "Simulato Tempo Coda" with lines lt 2 lc 2
+unset multiplot
+set terminal jpeg
+set title "Tempo medio nel sistema"
+set output 'C:\Users\padov\Desktop\risultati\grafici\tempo_sistema.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E[Tk]'
+set xrange[0:1]
+set yrange[0:101]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\teorici\\tempoSistema.txt' title "Teorico Tempo Sistema" with lines lt 1 lc 1, 'C:\Users\padov\Desktop\risultati\simulati\\tempoSistema.txt' title "Simulato Tempo Sistema" with lines lt 2 lc 2
+unset multiplot
+set terminal jpeg
+set title "Utenti medi in coda"
+set output 'C:\Users\padov\Desktop\risultati\grafici\utenti_coda.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E[q]'
+set xrange[0:1]  
+set yrange[0:99]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\teorici\\utentiCoda.txt' title "Teorico Utenti Coda" with lines lt 1 lc 1, 'C:\Users\padov\Desktop\risultati\simulati\\utentiCoda.txt' title "Simulato Utenti Coda" with lines lt 2 lc 2
+unset multiplot
+set terminal jpeg
+set title "Utenti medi nel sistema"
+set output 'C:\Users\padov\Desktop\risultati\grafici\utenti_sistema.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E[k]'
+set xrange[0:1]  
+set yrange[0:100]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\teorici\\utentiSistema.txt' title "Teorico Utenti Sistema" with lines lt 1 lc 1, 'C:\Users\padov\Desktop\risultati\simulati\\utentiSistema.txt' title "Simulato Utenti Sistema" with lines lt 2 lc 2
+unset multiplot
+set terminal jpeg
+set title "Errore % Utenti medi nel sistema"
+set output 'C:\Users\padov\Desktop\risultati\grafici\errore_utenti_sistema.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E %'
+set xrange[0:1]  
+set yrange[0:91]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\errore\\utentiSistema.txt' title "Errore percentuale Utenti Sistema" with lines lt 1 lc 1
+unset multiplot
+set terminal jpeg
+set title "Errore % Utenti medi in coda"
+set output 'C:\Users\padov\Desktop\risultati\grafici\errore_utenti_coda.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E %'
+set xrange[0:1]  
+set yrange[0:150]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\errore\\utentiCoda.txt' title "Errore percentuale Utenti Coda" with lines lt 1 lc 1
+unset multiplot
+set terminal jpeg
+set title "Errore % Tempo medio nel sistema"
+set output 'C:\Users\padov\Desktop\risultati\grafici\errore_tempo_sistema.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E %'
+set xrange[0:1]  
+set yrange[0:91]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\errore\\tempoSistema.txt' title "Errore percentuale Tempo Sistema" with lines lt 1 lc 1
+unset multiplot
+set terminal jpeg
+set title "Errore % Tempo medio in coda"
+set output 'C:\Users\padov\Desktop\risultati\grafici\errore_tempo_coda.jpeg'
+set key left box
+set multiplot
+set xlabel 'RHO fattore di utilizzazione'
+set ylabel 'E %'
+set xrange[0:1]  
+set yrange[0:105]
+set style data lines
+plot 'C:\Users\padov\Desktop\risultati\errore\\tempoCoda.txt' title "Errore percentuale Tempo Coda" with lines lt 1 lc 1
+unset multiplot
